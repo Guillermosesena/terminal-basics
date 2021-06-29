@@ -1,0 +1,111 @@
+Terminal is a graphic interface that simulates a command line. 
+A command line (shell) is a program that takes commands and send them to operating system in order to do an action.
+A command is a program that can be executed by a terminal. The commands can contain options and parameters. 
+Options are placed after a dash (-) or a double dash (--). When a single letter represents the option, a single dash is used, for options represented by a word, the double dash is used.
+
+Some commands related to directory:
+
+	cd 	Change directory
+
+	ls	List directories and files that a directory contains 
+   
+	pwd	Display the current directory
+
+	mv 	Move a file or rename a file
+
+	cp 	Copy a file or directory
+
+	mkdir	 Make a new directory
+
+	touch	Create a new file
+
+	rm	Remove a file or directory
+
+
+
+Some options relate to directory:
+
+	I 	Interactive way
+
+	f 	Force command
+
+	r 	Execute the command recursively
+
+
+
+Some options to list
+
+	l	List with long format
+
+	a	Display all the files and directories included the hidden ones 
+
+	S	Order files and directories according to their size
+
+	r	Order in reverse files and directories according to their size
+
+	h	Display directories and files with readable file size (kilobytes)
+
+	R	List recursively directory tree
+
+
+
+Some commands related to open files:
+
+	less	Display the contain of a file
+
+	head 	Display the first lines of a file
+
+	tail 	Display the last lines of a file.
+
+
+
+
+The executing of commands has three standard streams:
+
+	stdin 	(standard input) 	
+
+	stdout	(standard out)
+
+	stderr	(standard error)
+
+
+
+Some commands related to execution of commands:
+
+	;  	Run another command at the same time
+
+	&&	Run the second command if the first command ran successfully
+
+	&	Run commands asynchronously
+
+	||	Run the second command no matter if the precious one did not executed properly 
+
+	>       Redirects output of a command to a file
+
+
+
+Some network utility commands:
+
+	ipconfig	Display the network configuration of the computer
+
+	ping		Verify that a particular sever can accept requests 
+
+	curl		Obtain data from a server
+
+	wget		Download files from a server
+
+	traceroute      Display all the servers involved in a connection
+
+
+			
+Some commands related to process management 
+
+	ps	Display the processes that are running
+
+	kill	Ends the execution of a process
+
+	top 	Display the processes according to the amount of resources they consume
+
+
+
+
